@@ -1,9 +1,9 @@
 [manager]
-54.90.7.203
+54.214.91.254
 
 [worker]
-54.152.127.6
-3.87.222.109
+54.214.94.229
+54.214.88.252
 
 [all:vars]
 ansible_ssh_private_key_file=path/file.cer

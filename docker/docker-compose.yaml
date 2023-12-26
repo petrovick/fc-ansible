@@ -7,7 +7,7 @@ services:
     command: ["tail", "-f", "/dev/null"]
     hostname: control
     volumes: 
-      - .:/root/ansible
+      - ..:/root/ansible
 
   node1:
     build: .
